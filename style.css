@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(26, 26, 58);
+    padding: 16px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.logo {
+    
+}
