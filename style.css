@@ -137,5 +137,63 @@ body {
 
 /* section 4 below */
 
-/* either do html or style css in a way that creates
-   one big div with text inside */
+.section-4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 175px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sign-up-right {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.call-to-action {
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+.cta-subtext {
+    color: white;
+}
+
+.sign-up-left {
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+.cta-button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    background-color: #3882F6;
+    border: white solid 2px;
+    width: 125px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+/* footer below */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(26, 26, 58);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 45px;
+}
+
